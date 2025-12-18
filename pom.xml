@@ -130,12 +130,8 @@
                             <excludes>flyway_schema_history</excludes>
                             <inputSchema>PUBLIC</inputSchema>
                         </database>
-                        <generate>
-                            <pojos>true</pojos>
-                            <daos>true</daos>
-                        </generate>
                         <target>
-                            <packageName>hrs.jooq</packageName>
+                            <packageName>hrs.db</packageName>
                             <directory>src/main/java</directory>
                         </target>
                     </generator>
