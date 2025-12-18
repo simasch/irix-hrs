@@ -1,0 +1,6 @@
+.idea
+node_modules
+target
+
+src/frontend/generated
+src/frontend/index.html
